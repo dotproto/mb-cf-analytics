@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "title": "CloudFlare Analytics",
+    "description": "Includes CloudFlare Analytics code.",
+    "includes": [
+        "cfa.html"
+    ],
+    "fields": [
+        {
+            "field": "params.cfa_token",
+            "label": "CloudFlare Analytics Token",
+            "placeholder": "Extract from data-cf-beacon in the JS snippet."
+        }
+    ]
+}
